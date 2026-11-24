@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DayNight24 Services Inc. | Mobile Appliance Installation, TV Mounting &amp; Auto Detailing in Edmonton</title>
+<meta name="description" content="DayNight24 brings appliance installation, TV wall mounting and auto detailing to your door in Edmonton and surrounding areas. Booked around your schedule, day or night. Call 780-399-9609.">
+<meta name="theme-color" content="#14213d">
+<link rel="canonical" href="https://daynight24.ca/">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="DayNight24 Services Inc. | Mobile Service in Edmonton">
+<meta property="og:description" content="Installed, mounted, detailed — at your door. Serving Edmonton and surrounding areas, day or night.">
+<meta property="og:image" content="assets/images/og-daynight24.jpg">
+<meta property="og:url" content="https://daynight24.ca/">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<!-- Icon library: Bootstrap Icons (MIT, free for commercial use) -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+<link rel="stylesheet" href="assets/css/styles.css?v=3">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<!-- ============ UTILITY BAR ============ -->
+<div class="util">
+  <div class="shell">
+    <ul class="util-list">
+      <li><i class="bi bi-clock-fill"></i> Open 24/7 — evenings and weekends included</li>
+      <li><i class="bi bi-geo-alt-fill"></i> Edmonton &amp; surrounding areas</li>
+    </ul>
+    <a class="util-tel" href="tel:+17803999609"><i class="bi bi-telephone-fill"></i> 780-399-9609</a>
+  </div>
+</div>
+
+<!-- ============ HEADER ============ -->
+<header class="hdr" id="hdr">
+  <div class="shell">
+    <a class="logo" href="index.html" aria-label="DayNight24 Services Inc. home"><em>DayNight</em><b>24</b></a>
+
+    <nav aria-label="Main">
+      <ul class="nav">
+        <li><a class="is-current" href="index.html" aria-current="page"><i class="bi bi-house-door-fill"></i> Home</a></li>
+        <li id="svcItem">
+          <button class="navlink has-drop" id="svcBtn" aria-expanded="false" aria-controls="svcDrop">
+            <i class="bi bi-grid-fill"></i> Services <i class="bi bi-chevron-down caret"></i>
+          </button>
+
+          <div class="drop" id="svcDrop">
+            <div class="drop-main">
+              <h4>Service lines</h4>
+              <ul>
+                <li class="has-sub" id="applianceRow">
+                  <a href="services-appliance-installation.html">
+                    <span class="ico"><i class="bi bi-plug-fill"></i></span>
+                    <span class="txt">Appliance Installation<span>12 installs — hover to see them all</span></span>
+                  </a>
+                </li>
+                <li>
+                  <a href="services-tv-wall-mounting.html">
+                    <span class="ico"><i class="bi bi-tv-fill"></i></span>
+                    <span class="txt">TV Wall Mounting<span>Level, secure, cables hidden</span></span>
+                  </a>
+                </li>
+                <li>
+                  <a href="services-auto-detailing.html">
+                    <span class="ico"><i class="bi bi-car-front-fill"></i></span>
+                    <span class="txt">Mobile Auto Detailing<span>Studio-grade, in your driveway</span></span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="drop-sub">
+              <div class="drop-sublist">
+                <h4>Appliance installs</h4>
+                <a href="appliance-dishwasher-installation.html"><i class="bi bi-droplet-fill"></i> Dishwasher</a>
+                <a href="appliance-washing-machine-installation.html"><i class="bi bi-arrow-repeat"></i> Washing machine</a>
+                <a href="appliance-dryer-installation.html"><i class="bi bi-wind"></i> Dryer</a>
+                <a href="appliance-refrigerator-installation.html"><i class="bi bi-thermometer-snow"></i> Refrigerator</a>
+                <a href="appliance-otr-microwave-installation.html"><i class="bi bi-lightning-charge-fill"></i> Over-the-range microwave</a>
+                <a href="appliance-under-cabinet-range-hood.html"><i class="bi bi-fan"></i> Under-cabinet range hood</a>
+                <a href="appliance-chimney-range-hood.html"><i class="bi bi-fan"></i> Chimney range hood</a>
+                <a href="appliance-gas-range-installation.html"><i class="bi bi-fire"></i> Gas range</a>
+                <a href="appliance-gas-cooktop-installation.html"><i class="bi bi-fire"></i> Gas cooktop — 30" / 36"</a>
+                <a href="appliance-electric-cooktop-installation.html"><i class="bi bi-lightning-fill"></i> Electric cooktop</a>
+                <a href="appliance-built-in-microwave-installation.html"><i class="bi bi-box-seam-fill"></i> Built-in microwave</a>
+                <a href="appliance-built-in-wall-oven-installation.html"><i class="bi bi-thermometer-high"></i> Built-in wall oven</a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li><a href="pricing.html"><i class="bi bi-tag-fill"></i> Pricing</a></li>
+        <li><a href="reviews.html"><i class="bi bi-star-fill"></i> Reviews</a></li>
+        <li><a href="about.html"><i class="bi bi-people-fill"></i> About</a></li>
+        <li><a href="contact.html"><i class="bi bi-chat-dots-fill"></i> Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="hdr-cta">
+      <a class="btn btn--gold btn--sm" href="tel:+17803999609"><i class="bi bi-telephone-fill"></i> 780-399-9609</a>
+      <button class="burger" id="burger" aria-expanded="false" aria-controls="drawer" aria-label="Open menu"><i class="bi bi-list" id="burgerIcon"></i></button>
+    </div>
+  </div>
+</header>
+
+<!-- ============ MOBILE DRAWER ============ -->
+<div class="drawer" id="drawer">
+  <nav aria-label="Mobile">
+    <a class="lvl1" href="index.html"><i class="bi bi-house-door-fill"></i> Home</a>
+
+    <button class="lvl1" id="mSvc" aria-expanded="false"><i class="bi bi-grid-fill"></i> Services <i class="bi bi-chevron-down tog"></i></button>
+    <div class="acc-panel" id="mSvcPanel">
+      <button class="lvl2" id="mAppl" aria-expanded="false"><i class="bi bi-plug-fill"></i> Appliance Installation <i class="bi bi-chevron-down tog"></i></button>
+      <div class="acc-panel-2" id="mApplPanel">
+        <a href="services-appliance-installation.html"><i class="bi bi-arrow-right-short"></i> All appliance installs</a>
+        <a href="appliance-dishwasher-installation.html"><i class="bi bi-droplet-fill"></i> Dishwasher</a>
+        <a href="appliance-washing-machine-installation.html"><i class="bi bi-arrow-repeat"></i> Washing machine</a>
+        <a href="appliance-dryer-installation.html"><i class="bi bi-wind"></i> Dryer</a>
+        <a href="appliance-refrigerator-installation.html"><i class="bi bi-thermometer-snow"></i> Refrigerator</a>
+        <a href="appliance-otr-microwave-installation.html"><i class="bi bi-lightning-charge-fill"></i> Over-the-range microwave</a>
+        <a href="appliance-under-cabinet-range-hood.html"><i class="bi bi-fan"></i> Under-cabinet range hood</a>
+        <a href="appliance-chimney-range-hood.html"><i class="bi bi-fan"></i> Chimney range hood</a>
+        <a href="appliance-gas-range-installation.html"><i class="bi bi-fire"></i> Gas range</a>
+        <a href="appliance-gas-cooktop-installation.html"><i class="bi bi-fire"></i> Gas cooktop — 30" / 36"</a>
+        <a href="appliance-electric-cooktop-installation.html"><i class="bi bi-lightning-fill"></i> Electric cooktop</a>
+        <a href="appliance-built-in-microwave-installation.html"><i class="bi bi-box-seam-fill"></i> Built-in microwave</a>
+        <a href="appliance-built-in-wall-oven-installation.html"><i class="bi bi-thermometer-high"></i> Built-in wall oven</a>
+      </div>
+      <a class="lvl2" href="services-tv-wall-mounting.html"><i class="bi bi-tv-fill"></i> TV Wall Mounting</a>
+      <a class="lvl2" href="services-auto-detailing.html"><i class="bi bi-car-front-fill"></i> Mobile Auto Detailing</a>
+    </div>
+
+    <a class="lvl1" href="pricing.html"><i class="bi bi-tag-fill"></i> Pricing</a>
+    <a class="lvl1" href="reviews.html"><i class="bi bi-star-fill"></i> Reviews</a>
+    <a class="lvl1" href="about.html"><i class="bi bi-people-fill"></i> About</a>
+    <a class="lvl1" href="contact.html"><i class="bi bi-chat-dots-fill"></i> Contact</a>
+    <a class="lvl1" href="service-areas.html"><i class="bi bi-geo-alt-fill"></i> Service Areas</a>
+    <a class="lvl1" href="faq.html"><i class="bi bi-question-circle-fill"></i> FAQ</a>
+  </nav>
+  <div class="drawer-foot">
+    <a class="btn btn--gold" href="tel:+17803999609"><i class="bi bi-telephone-fill"></i> Call 780-399-9609</a>
+    <a class="btn btn--ghost" href="#book"><i class="bi bi-envelope-fill"></i> Request a quote</a>
+  </div>
+</div>
+
+<main id="main">
+
+<!-- ============ HERO CAROUSEL ============ -->
+<section class="hero" id="hero" aria-roledescription="carousel" aria-label="Our services">
+  <!-- Per-slide background photos — swap these three files, they sit under the navy overlay -->
+  <div class="hero-bgs" aria-hidden="true">
+    <div class="hero-bg is-active" style="background-image:url('assets/images/hero-bg-appliance.jpg')"></div>
+    <div class="hero-bg" style="background-image:url('assets/images/hero-bg-tv-mount.jpg')"></div>
+    <div class="hero-bg" style="background-image:url('assets/images/hero-bg-detailing.jpg')"></div>
+  </div>
+  <div class="shell">
+    <div class="hero-grid">
+
+      <div class="hero-copy">
+        <div class="slides" id="slides">
+
+          <article class="slide is-active" role="group" aria-roledescription="slide" aria-label="1 of 3: Appliance Installation">
+            <p class="eyebrow"><i class="bi bi-plug-fill"></i> We come to you · Edmonton</p>
+            <h1>Appliance <span class="accent">Installation</span></h1>
+            <p class="lede">Dishwashers, ranges, hoods, fridges, laundry. We level it, connect it, vent it, test it with you, then take the packaging away with us. One visit, done properly.</p>
+            <ul class="slide-tags">
+              <li><i class="bi bi-check-lg"></i> Kitchen &amp; laundry</li>
+              <li><i class="bi bi-check-lg"></i> Gas &amp; electric cooktops</li>
+              <li><i class="bi bi-check-lg"></i> Range hoods &amp; OTR microwaves</li>
+            </ul>
+            <div class="btn-row">
+              <a class="btn btn--gold" href="tel:+17803999609"><i class="bi bi-telephone-fill"></i> Call 780-399-9609</a>
+              <a class="btn btn--ghost-light" href="services-appliance-installation.html">See all installs <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </article>
+
+          <article class="slide" role="group" aria-roledescription="slide" aria-label="2 of 3: TV Wall Mounting">
+            <p class="eyebrow"><i class="bi bi-tv-fill"></i> We come to you · Edmonton</p>
+            <h1>TV Wall <span class="accent">Mounting</span></h1>
+            <p class="lede">Studs found properly, screen set at the height your room actually needs, wiring routed out of sight and every device connected and tested before we leave.</p>
+            <ul class="slide-tags">
+              <li><i class="bi bi-check-lg"></i> Any size or bracket</li>
+              <li><i class="bi bi-check-lg"></i> Cable concealment</li>
+              <li><i class="bi bi-check-lg"></i> Soundbars &amp; shelves</li>
+            </ul>
+            <div class="btn-row">
+              <a class="btn btn--gold" href="tel:+17803999609"><i class="bi bi-telephone-fill"></i> Call 780-399-9609</a>
+              <a class="btn btn--ghost-light" href="services-tv-wall-mounting.html">TV mounting details <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </article>
+
+          <article class="slide" role="group" aria-roledescription="slide" aria-label="3 of 3: Mobile Auto Detailing">
+            <p class="eyebrow"><i class="bi bi-car-front-fill"></i> We come to you · Edmonton</p>
+            <h1>Mobile Auto <span class="accent">Detailing</span></h1>
+            <p class="lede">Deep interior clean, exterior decontamination, wax and finishing. Book it while you work from home and walk out to a car that looks the way it did on day one.</p>
+            <ul class="slide-tags">
+              <li><i class="bi bi-check-lg"></i> Interior deep clean</li>
+              <li><i class="bi bi-check-lg"></i> Wash, decontaminate, wax</li>
+              <li><i class="bi bi-check-lg"></i> Wheels, trim &amp; glass</li>
+            </ul>
+            <div class="btn-row">
+              <a class="btn btn--gold" href="tel:+17803999609"><i class="bi bi-telephone-fill"></i> Call 780-399-9609</a>
+              <a class="btn btn--ghost-light" href="services-auto-detailing.html">Detailing packages <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </article>
+
+        </div>
+
+        <div class="hero-ctrl">
+          <div class="arrows">
+            <button class="arrow" id="prevBtn" aria-label="Previous service"><i class="bi bi-arrow-left"></i></button>
+            <button class="arrow" id="nextBtn" aria-label="Next service"><i class="bi bi-arrow-right"></i></button>
+          </div>
+          <div class="dots" id="dots" role="tablist" aria-label="Choose a service"></div>
+          <p class="slide-count"><b id="curNum">01</b> / 03</p>
+        </div>
+      </div>
+
+      <div class="hero-media">
+        <div class="frame">
+          <div class="ph is-active" data-label="assets/images/hero-appliance-installation.jpg — 1100 × 1250">
+            <img src="assets/images/hero-appliance-installation.jpg" alt="Technician installing a new dishwasher in an Edmonton kitchen" width="1100" height="1250" loading="eager" onerror="this.style.display='none'">
+          </div>
+          <div class="ph" data-label="assets/images/hero-tv-wall-mounting.jpg — 1100 × 1250">
+            <img src="assets/images/hero-tv-wall-mounting.jpg" alt="Television mounted level on a living room wall with concealed cables" width="1100" height="1250" loading="lazy" onerror="this.style.display='none'">
+          </div>
+          <div class="ph" data-label="assets/images/hero-auto-detailing.jpg — 1100 × 1250">
+            <img src="assets/images/hero-auto-detailing.jpg" alt="Car being detailed in a residential driveway" width="1100" height="1250" loading="lazy" onerror="this.style.display='none'">
+          </div>
+        </div>
+
+        <div class="float float--rating">
+          <div class="score">5.0</div>
+          <div>
+            <div class="stars" aria-hidden="true">
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+            </div>
+            <div class="meta">Average rating<br>from Google reviews</div>
+          </div>
+        </div>
+        <div class="float float--jobs">
+          <div class="num">200+</div>
+          <div class="lbl">Jobs done</div>
+        </div>
+      </div>
+    </div>
+
+    <ul class="hero-trust">
+      <li><i class="bi bi-star-fill"></i> Rated 5.0 on Google</li>
+      <li><i class="bi bi-patch-check-fill"></i> 200+ jobs completed</li>
+      <li><i class="bi bi-calendar2-check-fill"></i> 4+ years in Edmonton</li>
+      <li><i class="bi bi-truck"></i> We come to you</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ SERVICES ============ -->
+<section class="sec" id="services">
+  <div class="shell">
+    <div class="head rv">
+      <p class="eyebrow"><i class="bi bi-tools"></i> What we do</p>
+      <h2>Three services. One van. Zero hassle for you.</h2>
+      <p class="lede">Every job is quoted before we start and finished the same visit wherever possible. We arrive with the tools, the hardware and the drop sheets.</p>
+    </div>
+
+    <div class="svc-grid">
+      <article class="svc rv">
+        <div class="ph" data-label="assets/images/service-appliance-installation.jpg — 800 × 500">
+          <img src="assets/images/service-appliance-installation.jpg" alt="Dishwasher being levelled and connected during an appliance installation" width="800" height="500" loading="lazy" onerror="this.style.display='none'">
+        </div>
+        <div class="svc-body">
+          <span class="svc-ico"><i class="bi bi-plug-fill"></i></span>
+          <h3>Appliance Installation</h3>
+          <p>New appliance still in the box? We handle the levelling, the connections, the venting and the testing — then clear the packaging out.</p>
+          <ul>
+            <li><i class="bi bi-check-circle-fill"></i> Kitchen and laundry appliances</li>
+            <li><i class="bi bi-check-circle-fill"></i> Range hoods and OTR microwaves</li>
+            <li><i class="bi bi-check-circle-fill"></i> Gas and electric cooktops</li>
+            <li><i class="bi bi-check-circle-fill"></i> Old unit disconnected and moved out</li>
+          </ul>
+          <a class="svc-link" href="services-appliance-installation.html">See all installs <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </article>
+
+      <article class="svc rv">
+        <div class="ph" data-label="assets/images/service-tv-wall-mounting.jpg — 800 × 500">
+          <img src="assets/images/service-tv-wall-mounting.jpg" alt="Large television mounted level on a living room wall with hidden cables" width="800" height="500" loading="lazy" onerror="this.style.display='none'">
+        </div>
+        <div class="svc-body">
+          <span class="svc-ico"><i class="bi bi-tv-fill"></i></span>
+          <h3>TV Wall Mounting</h3>
+          <p>Studs found properly, screen dead level, cables out of sight. Mounted at the height that suits the room and where you actually sit in it.</p>
+          <ul>
+            <li><i class="bi bi-check-circle-fill"></i> Any size, any bracket type</li>
+            <li><i class="bi bi-check-circle-fill"></i> Cable concealment and tidy-up</li>
+            <li><i class="bi bi-check-circle-fill"></i> Soundbar and shelf mounting</li>
+            <li><i class="bi bi-check-circle-fill"></i> Devices connected and tested</li>
+          </ul>
+          <a class="svc-link" href="services-tv-wall-mounting.html">TV mounting details <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </article>
+
+      <article class="svc rv">
+        <div class="ph" data-label="assets/images/service-auto-detailing.jpg — 800 × 500">
+          <img src="assets/images/service-auto-detailing.jpg" alt="Vehicle interior being detailed in a residential driveway" width="800" height="500" loading="lazy" onerror="this.style.display='none'">
+        </div>
+        <div class="svc-body">
+          <span class="svc-ico"><i class="bi bi-car-front-fill"></i></span>
+          <h3>Mobile Auto Detailing</h3>
+          <p>The detailing bay comes to your driveway. Book it while you work from home and walk out to a car that looks like the day you bought it.</p>
+          <ul>
+            <li><i class="bi bi-check-circle-fill"></i> Deep interior clean and shampoo</li>
+            <li><i class="bi bi-check-circle-fill"></i> Exterior wash, decontamination, wax</li>
+            <li><i class="bi bi-check-circle-fill"></i> Wheels, trim and glass finishing</li>
+            <li><i class="bi bi-check-circle-fill"></i> Packages for daily drivers or showpieces</li>
+          </ul>
+          <a class="svc-link" href="services-auto-detailing.html">Detailing packages <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </article>
+    </div>
+
+    <div class="pill-block rv">
+      <h3>Every appliance we install</h3>
+      <p>Pick the one you bought. If it plugs in, vents out or connects to a water line, it is probably on this list — and if it is not, call and ask.</p>
+      <div class="pills">
+        <a class="pill" href="appliance-dishwasher-installation.html"><i class="bi bi-droplet-fill"></i> Dishwasher</a>
+        <a class="pill" href="appliance-washing-machine-installation.html"><i class="bi bi-arrow-repeat"></i> Washing machine</a>
+        <a class="pill" href="appliance-dryer-installation.html"><i class="bi bi-wind"></i> Dryer</a>
+        <a class="pill" href="appliance-refrigerator-installation.html"><i class="bi bi-thermometer-snow"></i> Refrigerator</a>
+        <a class="pill" href="appliance-otr-microwave-installation.html"><i class="bi bi-lightning-charge-fill"></i> Over-the-range microwave</a>
+        <a class="pill" href="appliance-under-cabinet-range-hood.html"><i class="bi bi-fan"></i> Under-cabinet range hood</a>
+        <a class="pill" href="appliance-chimney-range-hood.html"><i class="bi bi-fan"></i> Chimney range hood</a>
+        <a class="pill" href="appliance-gas-range-installation.html"><i class="bi bi-fire"></i> Gas range</a>
+        <a class="pill" href="appliance-gas-cooktop-installation.html"><i class="bi bi-fire"></i> Gas cooktop — 30" or 36"</a>
+        <a class="pill" href="appliance-electric-cooktop-installation.html"><i class="bi bi-lightning-fill"></i> Electric cooktop</a>
+        <a class="pill" href="appliance-built-in-microwave-installation.html"><i class="bi bi-box-seam-fill"></i> Built-in microwave</a>
+        <a class="pill" href="appliance-built-in-wall-oven-installation.html"><i class="bi bi-thermometer-high"></i> Built-in wall oven</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROCESS ============ -->
+<section class="sec sec--platinum" id="how">
+  <div class="shell">
+    <div class="head head--center rv">
+      <p class="eyebrow eyebrow--center"><i class="bi bi-signpost-split-fill"></i> How it works</p>
+      <h2>Three steps, start to finished</h2>
+      <p class="lede">No account to create, no back-and-forth for a week. Most jobs are booked in one phone call.</p>
+    </div>
+    <div class="steps">
+      <article class="step rv">
+        <i class="bi bi-chat-left-text-fill step-ico"></i>
+        <h3>Tell us the job</h3>
+        <p>Call, email, or send the form below. Describe the appliance, the wall, or the vehicle — a photo helps. We confirm what the job needs and what it costs before anything is scheduled.</p>
+      </article>
+      <article class="step rv">
+        <i class="bi bi-calendar2-week-fill step-ico"></i>
+        <h3>Pick a time that suits you</h3>
+        <p>Early morning before work, mid-afternoon, or after dinner. We book around your day, including evenings and weekends, and we tell you when we will actually arrive.</p>
+      </article>
+      <article class="step rv">
+        <i class="bi bi-patch-check-fill step-ico"></i>
+        <h3>We arrive and finish it</h3>
+        <p>We come with the tools and hardware, protect your floors, do the work, test it with you, and take the packaging away. You approve it before we leave.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WHY US ============ -->
+<section class="sec sec--night" id="why">
+  <div class="shell">
+    <div class="why-grid">
+      <div class="rv">
+        <p class="eyebrow"><i class="bi bi-shield-fill-check"></i> Why DayNight24</p>
+        <h2>Built around the one thing you can't get back.</h2>
+        <p class="lede">Your time. Everything about how we work exists to keep the job off your calendar and out of your way.</p>
+        <div class="stats">
+          <div class="stat"><i class="bi bi-patch-check-fill"></i><div class="n">200+</div><div class="l">Jobs completed</div></div>
+          <div class="stat"><i class="bi bi-calendar2-check-fill"></i><div class="n">4+</div><div class="l">Years serving Edmonton</div></div>
+          <div class="stat"><i class="bi bi-star-fill"></i><div class="n">5.0</div><div class="l">Google rating</div></div>
+          <div class="stat"><i class="bi bi-clock-fill"></i><div class="n">24/7</div><div class="l">Booking window</div></div>
+        </div>
+      </div>
+
+      <div class="why-list rv">
+        <div class="why-item">
+          <div class="why-ico"><i class="bi bi-truck"></i></div>
+          <div><h3>We come to you</h3><p>Your kitchen, your living room, your driveway. Nothing gets loaded into a car and nothing gets dropped off across town.</p></div>
+        </div>
+        <div class="why-item">
+          <div class="why-ico"><i class="bi bi-clock-fill"></i></div>
+          <div><h3>Booked around your day</h3><p>Before work, after dinner, on a Saturday. We keep hours that fit real schedules instead of asking you to take time off for a delivery window.</p></div>
+        </div>
+        <div class="why-item">
+          <div class="why-ico"><i class="bi bi-house-heart-fill"></i></div>
+          <div><h3>Careful in your home</h3><p>Floors covered, cabinets protected, cables tidied, packaging hauled away. You should not be able to tell we were there, apart from the work itself.</p></div>
+        </div>
+        <div class="why-item">
+          <div class="why-ico"><i class="bi bi-receipt"></i></div>
+          <div><h3>Priced before we start</h3><p>You get the number up front. If we find something unexpected behind the wall or under the counter, we stop and talk to you before spending your money.</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ REVIEWS ============ -->
+<section class="sec sec--platinum" id="reviews">
+  <div class="shell">
+    <div class="rev-head rv">
+      <div>
+        <p class="eyebrow"><i class="bi bi-google"></i> Customer reviews</p>
+        <h2>What Edmonton says</h2>
+      </div>
+      <div class="rev-score">
+        <div class="big">5.0</div>
+        <div>
+          <div class="stars" aria-hidden="true"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+          <p class="meta">Every review, five stars<br>Verified on Google</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="rev-grid">
+      <figure class="rev rev--wide rv">
+        <i class="bi bi-quote quote-mark"></i>
+        <div class="stars" aria-label="5 out of 5 stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+        <blockquote>Very professional, highly skilled, and affordable. I was replacing my old wall-mounted microwave and had purchased a new one, but couldn't install it myself. He came in, completed the job efficiently, and did excellent work. Highly recommended.</blockquote>
+        <figcaption><div class="avatar">S</div><div><div class="who">Samuel Okemwa</div><div class="when"><i class="bi bi-google"></i> Google review</div></div></figcaption>
+      </figure>
+
+      <figure class="rev rv">
+        <i class="bi bi-quote quote-mark"></i>
+        <div class="stars" aria-label="5 out of 5 stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+        <blockquote>Efficient, friendly and great price! Would highly recommend!</blockquote>
+        <figcaption><div class="avatar">J</div><div><div class="who">J.</div><div class="when"><i class="bi bi-google"></i> Google review</div></div></figcaption>
+      </figure>
+
+      <figure class="rev rv">
+        <i class="bi bi-quote quote-mark"></i>
+        <div class="stars" aria-label="5 out of 5 stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+        <blockquote>Very good service, highly skilled man.</blockquote>
+        <figcaption><div class="avatar">L</div><div><div class="who">Lovepreet Singh</div><div class="when"><i class="bi bi-google"></i> Google review</div></div></figcaption>
+      </figure>
+
+      <figure class="rev rv">
+        <i class="bi bi-quote quote-mark"></i>
+        <div class="stars" aria-label="5 out of 5 stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+        <blockquote>Very good service, on time.</blockquote>
+        <figcaption><div class="avatar">S</div><div><div class="who">Satbir Singh</div><div class="when"><i class="bi bi-google"></i> Google review</div></div></figcaption>
+      </figure>
+
+      <figure class="rev rv">
+        <i class="bi bi-quote quote-mark"></i>
+        <div class="stars" aria-label="5 out of 5 stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+        <blockquote>Five stars from a repeat Edmonton customer.</blockquote>
+        <figcaption><div class="avatar">M</div><div><div class="who">Mandeep Singh</div><div class="when"><i class="bi bi-google"></i> Google review</div></div></figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SERVICE AREAS ============ -->
+<section class="sec" id="areas">
+  <div class="shell">
+    <div class="areas">
+      <div class="rv">
+        <p class="eyebrow"><i class="bi bi-map-fill"></i> Where we work</p>
+        <h2>Edmonton and the communities around it</h2>
+        <p class="lede">If you are just outside this list, call anyway. We travel for the right job and we will tell you straight away whether we can get to you.</p>
+        <div class="btn-row" style="margin-top:26px">
+          <a class="btn btn--navy" href="tel:+17803999609"><i class="bi bi-telephone-fill"></i> Check your address</a>
+        </div>
+      </div>
+      <ul class="area-list rv">
+        <li class="is-hub"><i class="bi bi-geo-alt-fill"></i> Edmonton</li>
+        <li><i class="bi bi-check-lg"></i> Sherwood Park</li>
+        <li><i class="bi bi-check-lg"></i> St. Albert</li>
+        <li><i class="bi bi-check-lg"></i> Spruce Grove</li>
+        <li><i class="bi bi-check-lg"></i> Stony Plain</li>
+        <li><i class="bi bi-check-lg"></i> Leduc</li>
+        <li><i class="bi bi-check-lg"></i> Beaumont</li>
+        <li><i class="bi bi-check-lg"></i> Fort Saskatchewan</li>
+        <li><i class="bi bi-check-lg"></i> Devon</li>
+        <li><i class="bi bi-check-lg"></i> Nisku</li>
+        <li><i class="bi bi-check-lg"></i> Morinville</li>
+        <li><i class="bi bi-check-lg"></i> Ardrossan</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="sec sec--platinum" id="faq">
+  <div class="shell">
+    <div class="head head--center rv">
+      <p class="eyebrow eyebrow--center"><i class="bi bi-question-circle-fill"></i> Questions</p>
+      <h2>Before you book</h2>
+    </div>
+    <div class="faq rv">
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false"><i class="bi bi-clock-fill"></i> Are you really available 24/7?
+          <span class="faq-sign"><i class="bi bi-plus-lg"></i></span></button>
+        <div class="faq-a"><div><p>The phone is on around the clock and we book into evenings and weekends as standard. Overnight work is arranged case by case — call and tell us what you need and when, and we will tell you honestly whether we can do it.</p></div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false"><i class="bi bi-lightning-charge-fill"></i> How fast can you get to me?
+          <span class="faq-sign"><i class="bi bi-plus-lg"></i></span></button>
+        <div class="faq-a"><div><p>Often same day or next day for installs and TV mounts in Edmonton. Detailing bookings usually need a little more notice because they take longer on site. Call for the soonest opening.</p></div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false"><i class="bi bi-box-seam-fill"></i> What do I need to have ready?
+          <span class="faq-sign"><i class="bi bi-plus-lg"></i></span></button>
+        <div class="faq-a"><div><p>For an install, the appliance on site and clear access to the space. Some jobs need a specific hose, cord, vent kit or mounting bracket — we tell you exactly which one when you book, so nothing stalls halfway through. For detailing, a parking spot and access to the vehicle.</p></div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false"><i class="bi bi-fire"></i> Do you install gas ranges and cooktops?
+          <span class="faq-sign"><i class="bi bi-plus-lg"></i></span></button>
+        <div class="faq-a"><div><p>Gas ranges and gas cooktops in 30" and 36" are part of our appliance lineup. Tell us your setup and connection type when you call and we will confirm what the job involves before we schedule it.</p></div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false"><i class="bi bi-trash3-fill"></i> Will you take away the old appliance and the packaging?
+          <span class="faq-sign"><i class="bi bi-plus-lg"></i></span></button>
+        <div class="faq-a"><div><p>We disconnect and move the old unit out of the way as part of the install, and the packaging goes with us. Full removal and disposal of the old appliance can be added — mention it when you book so we bring the right vehicle.</p></div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false"><i class="bi bi-receipt"></i> How does pricing work?
+          <span class="faq-sign"><i class="bi bi-plus-lg"></i></span></button>
+        <div class="faq-a"><div><p>Every job is quoted before we start, and the number we give you is the number you pay unless you ask for extra work. If we discover something we could not see from the description, we stop and talk to you first.</p></div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false"><i class="bi bi-tv-fill"></i> How long does a TV wall mount take?
+          <span class="faq-sign"><i class="bi bi-plus-lg"></i></span></button>
+        <div class="faq-a"><div><p>A standard mount on a stud wall usually takes about an hour, a little longer with cable concealment or a full device setup. We will give you a realistic window when you book, not an optimistic one.</p></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BOOK ============ -->
+<section class="sec sec--night" id="book">
+  <div class="shell">
+    <div class="book-grid">
+      <div class="book-side rv">
+        <p class="eyebrow"><i class="bi bi-send-fill"></i> Get started</p>
+        <h2>Tell us the job. We'll tell you the price.</h2>
+        <p class="lede">Fastest way is the phone — it is answered by the person who will do your work. Prefer to write it out? The form gets to us the same way.</p>
+        <div class="btn-row" style="margin-top:26px">
+          <a class="btn btn--gold" href="tel:+17803999609"><i class="bi bi-telephone-fill"></i> Call 780-399-9609</a>
+        </div>
+        <div class="contact-lines">
+          <div class="cline"><i class="bi bi-telephone-fill"></i><div><span class="k">Phone</span><a class="v" href="tel:+17803999609">780-399-9609</a></div></div>
+          <div class="cline"><i class="bi bi-envelope-fill"></i><div><span class="k">Email</span><a class="v" href="mailto:info@daynight24.ca">info@daynight24.ca</a></div></div>
+          <div class="cline"><i class="bi bi-clock-fill"></i><div><span class="k">Hours</span><span class="v">Open 24/7</span></div></div>
+          <div class="cline"><i class="bi bi-geo-alt-fill"></i><div><span class="k">Service area</span><span class="v">Edmonton &amp; surrounding areas</span></div></div>
+        </div>
+      </div>
+
+      <!-- Submissions route to info@daynight24.ca via FormSubmit (click activation email on first live submission) -->
+      <form class="form rv" id="quoteForm" action="https://formsubmit.co/info@daynight24.ca" data-ajax="https://formsubmit.co/ajax/info@daynight24.ca" method="POST">
+        <input type="hidden" name="_subject" value="New Quote Request — DayNight24 Homepage">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_captcha" value="false">
+        <div class="form-head">
+          <i class="bi bi-clipboard2-check-fill"></i>
+          <h3>Request a quote</h3>
+        </div>
+        <div class="form-msg" id="formMsg" role="status" aria-live="polite"></div>
+        <div class="form-row">
+          <div class="field">
+            <label for="f-name"><i class="bi bi-person-fill"></i> Your name</label>
+            <input id="f-name" name="name" type="text" autocomplete="name" required>
+          </div>
+          <div class="field">
+            <label for="f-phone"><i class="bi bi-telephone-fill"></i> Phone</label>
+            <input id="f-phone" name="phone" type="tel" autocomplete="tel" required>
+          </div>
+        </div>
+        <div class="field">
+          <label for="f-email"><i class="bi bi-envelope-fill"></i> Email</label>
+          <input id="f-email" name="email" type="email" autocomplete="email" required>
+        </div>
+        <div class="form-row">
+          <div class="field">
+            <label for="f-service"><i class="bi bi-tools"></i> Service needed</label>
+            <select id="f-service" name="service" required>
+              <option value="">Choose one</option>
+              <option>Appliance installation</option>
+              <option>TV wall mounting</option>
+              <option>Mobile auto detailing</option>
+              <option>Something else</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="f-city"><i class="bi bi-geo-alt-fill"></i> City or neighbourhood</label>
+            <input id="f-city" name="city" type="text" autocomplete="address-level2" required>
+          </div>
+        </div>
+        <div class="field">
+          <label for="f-details"><i class="bi bi-chat-left-text-fill"></i> Tell us about the job</label>
+          <textarea id="f-details" name="details" placeholder="Model and make, what needs doing, and when suits you best." required></textarea>
+        </div>
+        <button class="btn btn--gold" type="submit" id="formBtn"><i class="bi bi-send-fill"></i> Send my request</button>
+        <p class="form-note"><i class="bi bi-lightning-charge-fill"></i> We reply with a price, usually within the hour.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA BAND ============ -->
+<section class="band">
+  <div class="shell band-inner">
+    <div>
+      <h2>Still in the box? Let's fix that today.</h2>
+      <p><i class="bi bi-geo-alt-fill"></i> Edmonton &amp; surrounding areas <span>·</span> <i class="bi bi-clock-fill"></i> Open 24/7</p>
+    </div>
+    <a class="btn btn--navy" href="tel:+17803999609"><i class="bi bi-telephone-fill"></i> Call 780-399-9609</a>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="ftr">
+  <div class="shell">
+    <div class="ftr-grid">
+      <div class="ftr-about">
+        <a class="logo" href="index.html"><em>DayNight</em><b>24</b></a>
+        <p>DayNight24 Services Inc. — mobile appliance installation, TV wall mounting and auto detailing across Edmonton and surrounding areas. Booked around your schedule, day or night.</p>
+        <div class="ftr-social">
+          <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+          <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+          <a href="#" aria-label="Google Business Profile"><i class="bi bi-google"></i></a>
+        </div>
+      </div>
+
+      <div class="ftr-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="services-appliance-installation.html"><i class="bi bi-plug-fill"></i> Appliance Installation</a></li>
+          <li><a href="services-tv-wall-mounting.html"><i class="bi bi-tv-fill"></i> TV Wall Mounting</a></li>
+          <li><a href="services-auto-detailing.html"><i class="bi bi-car-front-fill"></i> Mobile Auto Detailing</a></li>
+          <li><a href="appliance-gas-range-installation.html"><i class="bi bi-fire"></i> Gas Range Install</a></li>
+          <li><a href="appliance-otr-microwave-installation.html"><i class="bi bi-lightning-charge-fill"></i> OTR Microwave Install</a></li>
+          <li><a href="appliance-dishwasher-installation.html"><i class="bi bi-droplet-fill"></i> Dishwasher Install</a></li>
+        </ul>
+      </div>
+
+      <div class="ftr-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html"><i class="bi bi-people-fill"></i> About us</a></li>
+          <li><a href="pricing.html"><i class="bi bi-tag-fill"></i> Pricing</a></li>
+          <li><a href="reviews.html"><i class="bi bi-star-fill"></i> Reviews</a></li>
+          <li><a href="service-areas.html"><i class="bi bi-map-fill"></i> Service areas</a></li>
+          <li><a href="faq.html"><i class="bi bi-question-circle-fill"></i> FAQ</a></li>
+          <li><a href="contact.html"><i class="bi bi-chat-dots-fill"></i> Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="ftr-col">
+        <h4>Get in touch</h4>
+        <ul>
+          <li><a href="tel:+17803999609"><i class="bi bi-telephone-fill"></i> 780-399-9609</a></li>
+          <li><a href="mailto:info@daynight24.ca"><i class="bi bi-envelope-fill"></i> info@daynight24.ca</a></li>
+          <li><span><i class="bi bi-geo-alt-fill"></i> Edmonton, Alberta</span></li>
+          <li><span><i class="bi bi-clock-fill"></i> Open 24/7</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="ftr-bottom">
+      <span>© <span id="yr">2026</span> DayNight24 Services Inc. All rights reserved.</span>
+      <span class="ftr-legal">
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+      </span>
+    </div>
+  </div>
+</footer>
+
+<!-- ============ MOBILE CALL BAR ============ -->
+<div class="callbar">
+  <a class="btn btn--gold" href="tel:+17803999609"><i class="bi bi-telephone-fill"></i> Call now</a>
+  <a class="btn btn--ghost" href="#book"><i class="bi bi-envelope-fill"></i> Get a quote</a>
+</div>
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"LocalBusiness",
+  "name":"DayNight24 Services Inc.",
+  "description":"Mobile appliance installation, TV wall mounting and auto detailing serving Edmonton and surrounding areas.",
+  "telephone":"+1-780-399-9609",
+  "email":"info@daynight24.ca",
+  "url":"https://daynight24.ca/",
+  "openingHours":"Mo-Su 00:00-23:59",
+  "areaServed":["Edmonton","Sherwood Park","St. Albert","Spruce Grove","Stony Plain","Leduc","Beaumont","Fort Saskatchewan","Devon","Nisku","Morinville"],
+  "address":{"@type":"PostalAddress","addressLocality":"Edmonton","addressRegion":"AB","addressCountry":"CA"},
+  "aggregateRating":{"@type":"AggregateRating","ratingValue":"5.0","reviewCount":"5"}
+}
+</script>
+
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>
