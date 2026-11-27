@@ -123,7 +123,7 @@ p:last-child{margin-bottom:0}
 .btn--sm{padding:12px 22px;font-size:.9rem}
 .btn-row{display:flex;flex-wrap:wrap;gap:14px}
 
-.ph{position:relative;overflow:hidden;background:var(--platinum);
+.ph{position:relative;z-index:0;isolation:isolate;overflow:hidden;background:var(--platinum);
   background-image:linear-gradient(140deg,#eef0f4 0%,var(--platinum) 46%,#d8dce4 100%)}
 .ph::after{
   content:attr(data-label);position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
@@ -281,8 +281,8 @@ p:last-child{margin-bottom:0}
 .svc{background:var(--white);border:1px solid var(--navy-line);border-radius:var(--radius-lg);overflow:hidden;display:flex;flex-direction:column;transition:transform .25s var(--ease),box-shadow .25s var(--ease),border-color .25s}
 .svc:hover{transform:translateY(-6px);box-shadow:var(--shadow-md);border-color:transparent}
 .svc .ph{aspect-ratio:16/10}
-.svc-body{padding:26px 26px 30px;display:flex;flex-direction:column;flex:1;position:relative}
-.svc-ico{position:absolute;top:-28px;left:26px;width:56px;height:56px;border-radius:15px;background:var(--gold);color:var(--black);display:flex;align-items:center;justify-content:center;font-size:1.5rem;box-shadow:var(--shadow-sm)}
+.svc-body{padding:26px 26px 30px;display:flex;flex-direction:column;flex:1;position:relative;z-index:2}
+.svc-ico{position:absolute;top:-28px;left:26px;z-index:3;width:56px;height:56px;border-radius:15px;background:var(--gold);color:var(--black);display:flex;align-items:center;justify-content:center;font-size:1.5rem;box-shadow:0 8px 20px rgba(20,33,61,.18)}
 .svc h3{margin:20px 0 10px}
 .svc p{font-size:.94rem;color:var(--navy-soft);margin-bottom:18px}
 .svc ul{margin-bottom:22px;display:grid;gap:8px}
